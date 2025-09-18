@@ -1,1 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+    <style>
+        body { background: #222; color: #fff; font-family: Arial, sans-serif; }
+        canvas { background: #000; display: block; margin: 40px auto; border: 2px solid #fff; }
+        #score { text-align: center; font-size: 24px; margin-top: 10px; }
+        #game-over { text-align: center; font-size: 32px; color: red; display: none; }
+    </style>
+</head>
+<body>
+    <canvas id="tetris" width="300" height="600"></canvas>
+    <div id="score">Score: 0</div>
+    <div id="game-over">GAME OVER<br>Press R to restart</div>
+    <script src="tetris.js"></script>
+</body>
+</html>
 
